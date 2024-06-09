@@ -327,7 +327,7 @@ inline constexpr T* addressof( T& obj ) noexcept {
 		else
 			return &obj;
 	#else
-		return std::address_of(obj);
+		return std::addressof(obj);
 	#endif
 }
 
